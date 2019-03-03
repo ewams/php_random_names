@@ -8,12 +8,19 @@ It can even generate a random sized list, CSV, or array of names if you want tha
 
 
 To create a names class object: $names = new names();
+
 To return a single random name from the $names object: $names->return_random_name();
+
 To return a random sized string list of random names: $names->return_list_random_names();
+
 To return a list of 50 names: $names->return_list_random_names(50);
+
 To return a random sized CSV string of random names: $names->return_csv_random_names();
+
 To return a CSV of 85 random names: $names->return_csv_random_names(85);
+
 To return a random sized array of random names: $names->return_array_random_names();
+
 To return an array of 5000 random names: $names->return_array_random_names(5000);
 
 
