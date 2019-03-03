@@ -64,3 +64,5 @@ $names->return_array_random_names(5000);
 
 
 PS. I did not do spell check.
+
+PPS. The original list of names is from here: https://github.com/dominictarr/random-name/blob/master/first-names.txt
