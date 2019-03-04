@@ -7,9 +7,13 @@ It can even generate a random sized list, CSV, or array of names if you want tha
 
 ## Getting Started
 Be running PHP 7 on your web server.
+
 Download names.php to the appropriate directory.
+
 Create a $names object.
+
 Call functions as needed.
+
 
 ## Available Functions
 $names->return_random_name() - Returns a single name as a string.
