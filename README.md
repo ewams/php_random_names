@@ -114,7 +114,7 @@ Array
 
 
 ## Acknowledgments
-The original list of names is from here: https://github.com/dominictarr/random-name/blob/master/first-names.txt
+The original list of names is from Moby Word Lists by Grady Ward, website: https://www.gutenberg.org/ebooks/3201
 
 ## Misc
 I did not do spell check.
