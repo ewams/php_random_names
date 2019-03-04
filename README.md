@@ -26,7 +26,7 @@ $names->return_array_random_names($num = 0) - Returns an indexed array of names.
 
 
 
-##Examples:
+## Examples
 
 ```
 <?
