@@ -73,9 +73,12 @@ $names->return_array_random_names(9);
 
 The above would result in:
 Single name:
+```
 Penelope
+```
 
 List:
+```
 Rea
 Merissa
 Charleen
@@ -85,9 +88,12 @@ Mariejeanne
 Misti
 Danette
 Druci
+```
 
 CSV result:
+```
 Eada,Linn,Vicki,Aili,Timothea,Danell,Wendeline,Janine
+```
 
 Array result:
 ```
