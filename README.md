@@ -68,9 +68,9 @@ Results:
 $names->return_array_random_names(9;
 
 
-Results:
-
+?>
 ```
+
 The above would result in:
 Single name:
 Penelope
