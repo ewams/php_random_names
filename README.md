@@ -1,12 +1,12 @@
 # php_random_names
 I found myself needing to generate random names and could not quickly find a simple PHP class to do so.
 
-Here is A PHP 7 class to provide random names in several formats. 
-Can be a single name in string, CSV as string, list as string, or array. Included is a default list of 4950 names.
+Here is A PHP 7 class to provide random names in several formats. Another PHP7 random name generator! Currently on does first names.
+Can return a single name in string, CSV as string, list as string, or array. Included is a default list of 4950 names.
 
 It can even generate a random sized list, CSV, or array of names if you want that, which is default when calling functions. It will create a specific sized list, CSV or array of names if you tell it to.
 
-
+----------------------------------
 
 To create a names class object: $names = new names();
 
@@ -25,6 +25,7 @@ To return a random sized array of random names: $names->return_array_random_name
 To return an array of 5000 random names: $names->return_array_random_names(5000);
 
 
+-------------------------------------------------
 
 Examples:
 
@@ -42,23 +43,51 @@ $names = new names();
 
 $names->return_random_name();
 
+Reults:
+
+Penelope
 
 
 //return a random sized list of names as a string
 
 $names->return_list_random_names();
 
+Reults:
+Rea
+Merissa
+Charleen
+Kanya
+Lucilia
+Mariejeanne
+Misti
+Danette
+Druci
+
+//return a CSV of 8 names as string
+
+$names->return_csv_random_names(8);
+Results:
+Eada,Linn,Vicki,Aili,Timothea,Danell,Wendeline,Janine
 
 
-//return a CSV of 85 names as string
+//return an array with 9 names
 
-$names->return_csv_random_names(85);
+$names->return_array_random_names(9;
 
 
-
-//return an array with 5000 names
-
-$names->return_array_random_names(5000);
+Results:
+Array
+(
+    [0] => Augusta
+    [1] => Collie
+    [2] => Bel
+    [3] => Jackquelin
+    [4] => Reggi
+    [5] => Marylin
+    [6] => Miran
+    [7] => Merrie
+    [8] => Harrie
+)
 
 
 
