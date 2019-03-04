@@ -72,6 +72,7 @@ $names->return_array_random_names(9);
 ```
 
 The above would result in:
+
 Single name:
 ```
 Penelope
