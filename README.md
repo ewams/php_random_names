@@ -65,7 +65,7 @@ Results:
 
 //return an array with 9 names
 
-$names->return_array_random_names(9;
+$names->return_array_random_names(9);
 
 
 ?>
@@ -90,6 +90,7 @@ CSV result:
 Eada,Linn,Vicki,Aili,Timothea,Danell,Wendeline,Janine
 
 Array result:
+```
 Array
 (
     [0] => Augusta
@@ -102,6 +103,7 @@ Array
     [7] => Merrie
     [8] => Harrie
 )
+```
 
 
 ## Acknowledgments
