@@ -84,7 +84,7 @@ class names
     private function get_namesarray($id = null)
     { 
         //if $id is a number 0 or greater
-        if($id >= 0)
+        if($id >= 0 AND !is_null($id))
         {
             //return single name from array
             return $this->namesarray[$id];
@@ -129,6 +129,17 @@ class names
         return $this->get_namesarray(rand(0,($this->get_totalnames()-1)));
     }//end function return_random_name
     
+    /**
+     * names::return_array_all_names()
+     * @abstract Return all names from names array as an array.
+     * @var none
+     * @return array
+     */
+    public function return_array_all_names()
+    {
+        //get and return all names as an array
+        return $this->get_namesarray(null);
+    }//end function return_random_name
     
     /**
      * names::return_csv_random_names()
