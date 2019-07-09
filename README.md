@@ -44,7 +44,6 @@ $names = new names();
 
 $names->return_random_name();
 
-Reults:
 
 
 
@@ -53,13 +52,13 @@ Reults:
 
 $names->return_list_random_names();
 
-Reults:
+
 
 
 //return a CSV of 8 names as string
 
 $names->return_csv_random_names(8);
-Results:
+
 
 
 
